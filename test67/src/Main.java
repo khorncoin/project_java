@@ -11,7 +11,6 @@ public class Main {
         int[] arrayMileageCounter = new int[len];
         int sum = miles;
         int n = 0;
-//        arrayMileageCounter[0] = a[0]+miles;
         for(int i =0;i<len;i++){
 
             n = (a[i]+sum) /10;
@@ -25,7 +24,6 @@ public class Main {
             }
 
         }
-        System.out.println(8/10);
 
         return Arrays.toString(arrayMileageCounter);
 
