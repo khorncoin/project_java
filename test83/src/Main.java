@@ -11,11 +11,7 @@ public class Main {
         System.out.println(repsEqual(new int []{0, 3, 2, 0, 5, 3}  ,32053));
     }
     public static int repsEqual(int[] a,int n){
-
-
         List<Integer> list = new ArrayList<>();
-
-
             if(a[0]==0){
                 for(int i = 1 ; i < a.length ; i++ ) {
                     list.add(a[i]);
@@ -26,9 +22,6 @@ public class Main {
                     list.add(a[i]);
                 }
             }
-
-
-
         int len = list.size();
 
 //            System.out.println(len);
